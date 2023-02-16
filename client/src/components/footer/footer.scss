@@ -1,0 +1,48 @@
+.foot {
+    margin: 3rem 0;
+
+    &er {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+
+        i {
+            font-size: 2.5rem;
+            color: rgb(0, 0, 0);
+            transition-duration: 2s;
+            border-radius: 50%;
+            width: 100%;
+            height: 3rem;
+            cursor: pointer;
+        }
+
+        i:hover {
+            font-size: 4rem;
+            color: darkblue;
+            transition-duration: 1s;
+        }
+    }
+
+    &er__bottom {
+        border-top: 1px solid #ccc;
+        margin: 0;
+
+        p {
+            width: 100%;
+            padding-top: 3rem;
+            padding-left: 30rem;
+            color: #666;
+            font-size: 1.5rem;
+            margin: 0;
+        }
+    }
+}
+
+@media  (max-width: 475px) {
+    .footer__bottom p {
+        padding-left: 3rem;
+    }
+
+}

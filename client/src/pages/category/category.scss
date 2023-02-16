@@ -1,0 +1,44 @@
+.categorycarousel {
+    width: 100%;
+    height: 100vh;
+
+    .carouselimg1 {
+        background-image: url('../../images/mobilecarousel1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .carouselimg2 {
+        background-image: url('../../images/mobilecarousel2.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+.category {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+
+    &__img {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 10rem;
+        p{
+            font-size: 15px;
+        }
+        img{
+            width: 80px;
+            height: 80px;
+        }
+    }
+}
